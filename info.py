@@ -14,7 +14,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '14505719'))
 API_HASH = environ.get('API_HASH', '620f0a2aa2cd1474a4953619b3e3643d')
-BOT_TOKEN = environ.get('BOT_TOKEN', "5648648409:AAHIb3mvPM-E2WOZvpLxsGseuMTwqugTeVc")
+BOT_TOKEN = environ.get('BOT_TOKEN', "5427083647:AAEyq2rz7GjGZf8ALuw-KYDKmdkceLZBso8")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 150))
@@ -38,7 +38,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Anurag_files')
 # Others
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001896105460'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'TamilDub_Linkzz')
-P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', 'True')), False)
+P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', 'False')), False)
 IMDB = is_enabled((environ.get('IMDB', 'False')), False)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', 'True')), False)
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "ɴᴀᴍᴇ: <code>{file_name}</code> \n\nᴊᴏɪɴ ɴᴏᴡ: [𝙏𝙖𝙢𝙞𝙡𝘿𝙪𝙗_𝙇𝙞𝙣𝙠𝙯𝙯](https://t.me/+tjyLLBPSp6FkNjVl)</b> \n\nɴᴏᴛᴇ: ᴀꜰᴛᴇʀ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴛʜᴇ ꜰɪʟᴇꜱ, ꜱᴀᴠᴇ ᴛʜᴇ ꜰɪʟᴇ ᴛᴏ ɢᴀʟʟᴇʀʏ ᴀɴᴅ ᴄʟɪᴄᴋ ᴛʜᴇ ᴅᴇʟᴇᴛᴇ ʙᴜᴛᴛᴏɴ, ᴅᴏɴ'ᴛ ᴄʟɪᴄᴋ ʙᴇꜰᴏʀᴇ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴛʜᴇ ꜰɪʟᴇꜱ, ɪꜰ ᴜ ᴅᴏɴ'ᴛ ᴡᴀɴᴛ ᴛʜɪꜱ ꜰɪʟᴇ ᴘʟᴇᴀꜱᴇ ᴄʟɪᴄᴋ ᴅᴇʟᴇᴛᴇ ʙᴜᴛᴛᴏɴ.")
